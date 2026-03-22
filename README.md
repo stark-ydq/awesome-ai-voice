@@ -31,6 +31,7 @@ A curated list of open-source Text-to-Speech (TTS), voice cloning, and music gen
 | [VibeVoice-Realtime](#vibevoice-realtime) | ✅ | ❌ | Multi | ✅ | MIT |
 | [Fun-CosyVoice 3.0](#fun-cosyvoice-30) | ✅ | ❌ | 9 + 18 dialects | ✅ | Apache-2.0 |
 | [MioTTS-2.6B](#miotts-26b) | ✅ | ❌ | En/Jp | ✅ | LFM |
+| [Supertonic 2](#supertonic-2) | ❌ | ❌ | 5 | ✅ | OpenRAIL-M |
 | [KugelAudio](#kugelaudio) | ✅ | ❌ | 23 EU | ✅ | MIT |
 | [Kokoro-82M](#kokoro-82m) | ✅ | ❌ | 8 (54 voices) | ✅ | Apache-2.0 |
 | [KokoClone](#kokoclone) | ✅ | ❌ | 7 | ✅ | Apache-2.0 |
@@ -350,6 +351,44 @@ A curated list of open-source Text-to-Speech (TTS), voice cloning, and music gen
 **Links:**
 [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Aratako/MioTTS--2.6B-yellow?logo=huggingface&style=flat)](https://huggingface.co/Aratako/MioTTS-2.6B)
 [![GitHub](https://img.shields.io/badge/GitHub-Aratako/MioTTS--Inference-black?logo=github&style=flat)](https://github.com/Aratako/MioTTS-Inference)
+
+</details>
+
+<details id="supertonic-2">
+<summary>Supertonic 2</summary>
+
+### Supertonic 2
+
+**Description:** Lightning-fast, on-device text-to-speech system designed for extreme performance with minimal computational overhead. Powered by ONNX Runtime, it runs entirely on-device—no cloud, no API calls, no privacy concerns. Outperforms ElevenLabs Flash v2.5 by up to 42× in speed benchmarks.
+
+**Release Date:** 2026
+
+| Feature | Value |
+|---------|-------|
+| **Parameters** | 66M |
+| **Zero-shot Voice Cloning** | ❌ |
+| **ASR** | ❌ |
+| **Pronunciation Control** | ❌ |
+| **Emotion Control** | ❌ |
+| **Languages** | English, Korean, Spanish, Portuguese, French |
+| **Streaming** | ✅ |
+| **RTF** | 0.001-0.015 (up to 167× realtime) |
+| **On-Device** | ✅ (ONNX Runtime) |
+| **License** | OpenRAIL-M |
+
+**Performance Comparison:**
+
+| System | Speed (chars/sec) | RTF |
+|--------|-------------------|-----|
+| Supertonic 2 (RTX 4090) | 12,164 | 0.001 |
+| Supertonic 2 (M4 Pro CPU) | 1,263 | 0.012 |
+| ElevenLabs Flash v2.5 | 287 | 0.5 |
+| Kokoro (Open-source) | 117 | 1.3 |
+
+**Links:**
+[![GitHub](https://img.shields.io/badge/GitHub-supertone-inc/supertonic-black?logo=github&style=flat)](https://github.com/supertone-inc/supertonic)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Supertone/supertonic--2-yellow?logo=huggingface&style=flat)](https://huggingface.co/Supertone/supertonic-2)
+[![Demo](https://img.shields.io/badge/Demo-HF%20Spaces-blue&style=flat)](https://huggingface.co/spaces/Supertone/supertonic-2)
 
 </details>
 
