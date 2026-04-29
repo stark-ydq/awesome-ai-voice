@@ -1219,6 +1219,7 @@ Models that can generate audio from multiple input modalities (video, text, imag
 | [MMAudio](#mmaudio) | ✅ | ✅ | ✅ | ❌ | Apache-2.0 |
 | [AudioX](#audiox) | ✅ | ✅ | ✅ | ✅ | Apache-2.0 |
 | [Uni-MoE (Audio)](#uni-moe-audio-any2audio) | ✅ | ✅ | ❌ | ✅ | Apache-2.0 |
+| [voicetoinstrument.com](#voicetoinstrument) | ✅ | ❌ | ❌ | ❌ | Apache-2.0 |
 
 <details id="audiox">
 <summary>AudioX</summary>
@@ -1388,6 +1389,27 @@ Models that can generate audio from multiple input modalities (video, text, imag
 </details>
 
 ---
+
+<details id="voicetoinstrument">
+<summary>voicetoinstrument.com</summary>
+
+### voicetoinstrument.com
+
+**Description:** AI-driven tool that converts voice recordings to instrumental tracks. Users humming or singing can generate full instrumentals (piano, guitar, strings, etc.) without needing original recordings.
+
+**Release Date:** 2025
+
+| Feature | Value |
+|---------|-------|
+| **Input** | Voice recording (humming/singing) |
+| **Output** | Full instrumental tracks |
+| **Instruments** | Piano, guitar, strings, drums, etc. |
+| **License** | Commercial |
+
+**Links:**
+- [Website](https://voicetoinstrument.com)
+
+</details>
 
 ## Audio Restoration & Enhancement
 
